@@ -57,17 +57,19 @@
     <Compile Include="00 Easy\TouchingPrivates.cs" />
     <Compile Include="00 Easy\WeCantDoThisAnymore.cs" />
     <Compile Include="00 Easy\WeYield.cs" />
+    <Compile Include="01 Medium\CheckItOut.cs" />
     <Compile Include="01 Medium\DoesItMatter.cs" />
     <Compile Include="01 Medium\MagicCanHappen.cs" />
     <Compile Include="01 Medium\OperatorPatchMeThrough.cs" />
     <Compile Include="01 Medium\WhereDoWeGoto.cs" />
+    <Compile Include="01 Medium\WhosCalling.cs" />
+    <Compile Include="02 High\IsThisAUnion.cs" />
+    <Compile Include="02 High\LineDancer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="00 Easy\WhatIsIt.cs" />
     <Compile Include="00 Easy\WhereIsItGeneric.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="02 High\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
