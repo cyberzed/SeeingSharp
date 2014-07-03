@@ -39,25 +39,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DontShowInDebug.cs" />
-    <Compile Include="ExtraLengthOnTheArm.cs" />
-    <Compile Include="IAmImmutable.cs" />
-    <Compile Include="IndexingIsEasy.cs" />
-    <Compile Include="ItIsTimeForFun.cs" />
-    <Compile Include="ItsADefaultThing.cs" />
-    <Compile Include="Numbers.cs" />
-    <Compile Include="Options.cs" />
-    <Compile Include="PathIdeas.cs" />
-    <Compile Include="ReallyStupidIdea.cs" />
-    <Compile Include="RestrictedAttribute.cs" />
-    <Compile Include="Scopey.cs" />
-    <Compile Include="ShowInDebug.cs" />
-    <Compile Include="WeCantDoThisAnymore.cs" />
-    <Compile Include="WeYield.cs" />
+    <Compile Include="Easy\DontShowInDebug.cs" />
+    <Compile Include="Easy\ExtraLengthOnTheArm.cs" />
+    <Compile Include="Easy\IAmImmutable.cs" />
+    <Compile Include="Easy\IndexingIsEasy.cs" />
+    <Compile Include="Easy\ItIsTimeForFun.cs" />
+    <Compile Include="Easy\ItsADefaultThing.cs" />
+    <Compile Include="Easy\Numbers.cs" />
+    <Compile Include="Easy\Options.cs" />
+    <Compile Include="Easy\PathIdeas.cs" />
+    <Compile Include="Easy\ReallyStupidIdea.cs" />
+    <Compile Include="Easy\RestrictedAttribute.cs" />
+    <Compile Include="Easy\Scopey.cs" />
+    <Compile Include="Easy\ShowInDebug.cs" />
+    <Compile Include="Easy\WeCantDoThisAnymore.cs" />
+    <Compile Include="Easy\WeYield.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WhatIsIt.cs" />
-    <Compile Include="WhereIsItGeneric.cs" />
+    <Compile Include="Easy\WhatIsIt.cs" />
+    <Compile Include="Easy\WhereIsItGeneric.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
