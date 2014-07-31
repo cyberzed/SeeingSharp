@@ -7,7 +7,10 @@ namespace SeeingSharp
         private readonly Dictionary<int, string> lookup = new Dictionary<int, string>
         {
             {1, "One"},
-            {2, "Two"}
+            {2, "Two"},
+            {3, "Three"},
+            {4, "Four"},
+            {5, "Five"}
         };
 
         public string this[int key]

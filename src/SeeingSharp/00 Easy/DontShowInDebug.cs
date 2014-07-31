@@ -8,6 +8,8 @@ namespace SeeingSharp
         [DebuggerBrowsable(DebuggerBrowsableState.Never)]
         public Guid AbsolutelyNotImportant { get; set; }
 
+        public Guid VeryImportant { get; set; }
+
         public Guid Important()
         {
             return Guid.NewGuid();

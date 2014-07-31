@@ -1,14 +1,9 @@
 namespace SeeingSharp
 {
-    public class ItIsGenericNoMatterWhat
+    public static class ItIsGenericNoMatterWhat
     {
-        public void IsIt()
+        public static void YesItIs<TInput>(TInput input)
         {
-            YesItIs<int>(23);
-            YesItIs(23);
         }
-
-        public void YesItIs<TInput>(TInput input)
-        { }
     }
 }

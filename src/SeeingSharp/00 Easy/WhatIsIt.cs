@@ -4,7 +4,7 @@ namespace SeeingSharp
 {
     public class WhatIsIt
     {
-        public void IsItWhatYouThing(object foo)
+        public void IsItWhatYouThink(object foo)
         {
             if (foo is string)
             {

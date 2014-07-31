@@ -2,16 +2,6 @@ using System;
 
 namespace SeeingSharp
 {
-    public class ExtraLengthOnTheArm
-    {
-        public static void HowFar()
-        {
-            var duration = Duration.Week;
-
-            var dateTime = duration.From(DateTime.Now);
-        }
-    }
-
     public enum Duration
     {
         Day,
