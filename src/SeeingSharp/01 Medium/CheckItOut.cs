@@ -2,28 +2,28 @@
 {
     public class CheckItOut
     {
-        public void ThatIsSoChecked()
+        public short ThatIsSoChecked()
         {
             var x1 = short.MaxValue;
             var x2 = short.MaxValue;
 
-            var x = checked ((short) x1 + x2);
+            return checked ((short) (x1 + x2));
         }
 
-        public void ThatIsSoUnchecked()
+        public short ThatIsSoUnchecked()
         {
             var x1 = short.MaxValue;
             var x2 = short.MaxValue;
 
-            var x = unchecked((short) x1 + x2);
+            return unchecked((short) (x1 + x2));
         }
 
-        public void DefaultWay()
+        public short DefaultWay()
         {
             var x1 = short.MaxValue;
             var x2 = short.MaxValue;
 
-            var x = (short) (x1 + x2);
+            return (short) (x1 + x2);
         }
     }
 }

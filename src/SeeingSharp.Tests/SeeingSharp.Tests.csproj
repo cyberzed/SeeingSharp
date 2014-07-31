@@ -63,6 +63,12 @@
     <Compile Include="00 Easy\WeYieldTests.cs" />
     <Compile Include="00 Easy\WhatIsItTests.cs" />
     <Compile Include="00 Easy\WhereIsItGenericTests.cs" />
+    <Compile Include="01 Medium\CheckItOutTests.cs" />
+    <Compile Include="01 Medium\MagicCanHappenTests.cs" />
+    <Compile Include="01 Medium\OperatorPathMeThroughTests.cs" />
+    <Compile Include="01 Medium\WhereDoWeGotoTests.cs" />
+    <Compile Include="01 Medium\WhosCallingTests.cs" />
+    <Compile Include="02 High\IsThisAUnion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

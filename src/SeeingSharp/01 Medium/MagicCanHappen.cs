@@ -8,7 +8,7 @@ namespace SeeingSharp.Sub
         public void Magic()
         {
             var limit = 10;
-            //limit = "five";
+            //limit = "Fem";
 
             for (var i = 0; i < limit; i++)
             {
@@ -22,12 +22,12 @@ namespace SeeingSharp.Sub
         }
     }
 
-    #region Haha
+    #region
 
     public class var
     {
         private static readonly List<string> Numbers = new List<string>
-        {"Et", "To", "Tre", "Fire", "Fem", "Seks", "Syv", "Otte", "Ni", "Ti"};
+        {"Nul", "Et", "To", "Tre", "Fire", "Fem", "Seks", "Syv", "Otte", "Ni", "Ti"};
 
         private readonly int number;
 
@@ -50,7 +50,7 @@ namespace SeeingSharp.Sub
 
         public static implicit operator var(int number)
         {
-            if (number < 0 || number >= Numbers.Count)
+            if (number < 0 || number > Numbers.Count)
             {
                 throw new ArgumentOutOfRangeException("number");
             }
